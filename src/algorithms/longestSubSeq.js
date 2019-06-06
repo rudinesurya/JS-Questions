@@ -1,4 +1,11 @@
-module.exports.longestSubSeq = (s1, s2) => {
+/**
+ * Function that takes in 2 strings, s1, s2 and returns the longest common subsequence
+ *
+ * @param {string} s1
+ * @param {string} s2
+ * @returns {string}
+ */
+longestSubSeq = (s1, s2) => {
   return recurse(s1, s2);
 };
 

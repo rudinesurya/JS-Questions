@@ -1,3 +1,13 @@
+/**
+ * For some given string S, a query word is stretchy if it can be made to be equal to S by
+ * any number of applications of the following extension operation: choose a group consisting of
+ * characters c, and add some number of characters c to the group so that the size of the
+ * group is 3 or more.
+ *
+ * @param {string} S
+ * @param {string[]} words
+ * @return {number}
+ */
 module.exports.expressiveWords = (S, words) => {
   let count = 0;
   for (let i = 0; i < words.length; i++) {
